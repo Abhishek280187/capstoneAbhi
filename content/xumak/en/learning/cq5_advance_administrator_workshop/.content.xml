@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T16:38:20.354+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="cq5_advance_administrator_workshop"
+        sling:resourceType="xumak/components/page/subpage">
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T16:31:27.939+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/nav_back_image_2_0000_Layer-1.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T16:31:46.677+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;h1>Push the Limits!&lt;/h1>&#xa;&#xa;                                                &#xa;                                                &lt;p>XumaK offers &#xa;high-quality training for all levels from authors to architects. &#xa;&amp;nbsp;Whether just beginning or at an advanced level, XumaK has the expertise&#xa; to take you further.&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-28T16:31:53.153+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:32:17.785+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                heading="Advance CQ5 Admnistrator Workshop"
+                subheading="CQ5 (now forming classes)">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <textimage
+                jcr:created="{Date}2013-06-28T16:32:22.599+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:35:08.042+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>This workshop focuses a variety of advanced topics characteristic of a typical CQ5 deployment such as reviewing the integration design of a &amp;quot;full development set-up&amp;quot; using external repositories for your code or reviewing situations involving multiple domains with each domain assigned to a given content tree within your CQ5 instance. Furthermore, we will cover cases for optimizing indexing and even using a third party open source indexer and integrating it with CQ. A student attending this workshop should have completed the Official Adobe® CQ System Administrator Training.&lt;/p>&#xa;"
+                heading="Advanced CQ Administration Workshop "
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5-ProjectManagers-Architects.png"/>
+            <textimage_0
+                jcr:created="{Date}2013-06-28T16:35:22.723+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:35:27.690+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>&lt;b>CONTACT US TO INQUIRE ABOUT OUR CLASSES OR TO REGISTER&lt;/b>&lt;/p>&#xa;&lt;p>email us @ &lt;a href=&quot;mailto:training@xumak.com?subject=Training%20Inquiry&quot;>training@xumak.com&lt;/a> or call us at +1.213.232.3366&lt;/p>&#xa;"/>
+        </left-parsys>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-28T16:35:42.196+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:36:43.716+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Upcoming Sessions"
+                links="[{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_developer_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Developer Workshop (now forming classes)&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_administrator_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance System Administrator Workshop (now forming classes)&quot;}]"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-28T16:36:55.675+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:38:20.349+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Other Advance CQ5 Workshops"
+                links="[{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_developer_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Developer Workshop&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_administrator_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Administrator Workshop&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_architect_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Architect Workshop&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_author_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Author Workshop&quot;}]"/>
+        </right-parsys>
+    </jcr:content>
+</jcr:root>

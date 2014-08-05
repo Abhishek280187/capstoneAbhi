@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/xumak"
+        cq:lastModified="{Date}2013-06-30T22:15:17.947+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/partialpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel Slide 2"
+        sling:resourceType="xumak/components/page/partialpage">
+        <slide-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carouselslide
+                jcr:lastModified="{Date}2013-06-28T15:38:11.230+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/carouselslide"
+                alignmenttype="right"
+                buttonlink="/content/xumak/en/learning/cq5_aatc_latin_america"
+                heading="NOW OFFERING: CQ5.5 classes in Latin America"
+                image="/content/dam/Xumak/Adobe-CQ5-Training.png"
+                imagelink="/content/xumak/en"
+                para1="Get additional SAVINGS when registering in our classes delivered at our offices in Guatemala City, Guatemala."
+                para2="We are always open to deliver: CQ Author, CQ Developer, CQ System Administration and CQ Advanced Workshops.  Contact us for availability!"
+                subheading="Adobe® Authorized Training Center in Guatemala City"/>
+        </slide-par>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/xumak"
+        cq:lastModified="{Date}2013-07-03T12:26:02.027+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/partialpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel Slide 1"
+        sling:resourceType="xumak/components/page/partialpage">
+        <slide-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carouselslide
+                jcr:lastModified="{Date}2013-07-03T12:26:02.019+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/carouselslide"
+                alignmenttype="right"
+                buttonlink="/content/xumak/en/services"
+                heading="Delivering CQ Implementations since 2003"
+                image="/content/dam/Xumak/Adobe-CQ5.5-XumaK.png"
+                imagelink="/content/xumak/en"
+                para1="Our global experience from leading major implementation projects to delivering training in multiple languages sets us apart from the competition."
+                subheading="Adobe® Solution Partner, Certified Trainers &amp; Authorized Training Center"/>
+        </slide-par>
+    </jcr:content>
+</jcr:root>

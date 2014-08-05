@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T14:53:45.511+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="new-xumak-offices-Guatemala"
+        sling:resourceType="xumak/components/page/subpage">
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T14:48:49.787+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/XumaK-NearShore-Office-Guatemala.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T14:46:49.427+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;h5>XumaK becomes a CQ5 Adobe® Authorized Training Center (AATC)&lt;/h5>&#xa;&lt;p>XumaK is primarily focused on supporting both Adobe® customers and partners with their CQ implementations and training needs&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-28T14:47:01.941+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:49:15.808+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>On December 3, 2011 XumaK inaugurated its new Near Shore office in Guatemala City. The office themed High Tech, Great Working Environment seats in a penthouse at a 14th floor of one of the newest buildings in Guatemala City with 360 degree view of the city and its surrounding volcanoes. It has plenty of Scrum Rooms and is geared to host up to 150 resources.&lt;/p>&#xa;&lt;p>This new location is strategically close to the most important places in the city, close to the international airport (15 mins) and 5 minutes from the financial district and hotels.&lt;/p>&#xa;&lt;p>Just a little over 3 yrs ago we started our venture with our near shore office. During this time we have expanded and have moved to three different places.&amp;nbsp; Our first office was design to host a small team at which we stayed just over a year and when we started growing, we moved to an office that was design to host up to 50 resources. Now topping with 50 resources, it was necessary to move on to a new area and the challenge was tremendous, however we found a great location from where we are eager to keep on assisting our clients and partners around the world.&lt;/p>&#xa;&lt;p>With this new office, the message we would like to send to our clients and partners is that we are serious and we are here to stay. We want to cement our services around this technology and we want keep on providing high quality services at a very cost-effective approach. Guatemala is in a great location, it is very close to the US and it is in the Central Standard Time Zone (UTC/GMT -6 hrs). From the US, there are plenty of non-stop flights; to name a few, from New York, Washington DC, Los Angeles, Houston and Miami, ranging from 2 hrs to 5 hrs flights.&lt;/p>&#xa;&lt;p>Our future projects will be to open up more offices throughout Latin America.&lt;/p>&#xa;&lt;p>If you are interested in knowing more about us and of our services, please don’t hesitate to &lt;a>contact us&lt;/a>.&lt;/p>&#xa;"
+                heading="XumaK Expands Near Shore Office - Guatemala City">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <image
+                jcr:created="{Date}2013-06-28T14:47:30.345+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:48:52.787+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/Xumak/XumaK-Oportunidades.png"/>
+        </left-parsys>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-28T14:50:40.258+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:51:43.816+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="WHAT IS YOUR NEED?"
+                links="[{&quot;url&quot;:&quot;#&quot;\,&quot;text&quot;:&quot;You need a team of CQ5 experts? &quot;},{&quot;url&quot;:&quot;#&quot;\,&quot;text&quot;:&quot;    Your team is incomplete and need some extra hands?     You need CQ resources for short term? &quot;}]"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-28T14:51:51.303+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:52:36.445+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="WE CAN HELP!"
+                links="[{&quot;url&quot;:&quot;#&quot;\,&quot;text&quot;:&quot; Contact us:      email: cq-support@xumak.com     tel: +1.213.232.3366&quot;},{&quot;url&quot;:&quot;/content/xumak/en/contact&quot;\,&quot;text&quot;:&quot;Or Contact Us here...&quot;}]"/>
+            <rightcontentbox_1
+                jcr:created="{Date}2013-06-28T14:53:00.112+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:53:45.503+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Share"
+                links="\{&quot;url&quot;:&quot;https://twitter.com/share&quot;,&quot;text&quot;:&quot;Tweet&quot;}"/>
+        </right-parsys>
+    </jcr:content>
+</jcr:root>

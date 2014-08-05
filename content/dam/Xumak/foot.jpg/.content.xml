@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="bf3cb6b5-b968-4caa-b821-77a6f10cfdd8">
+    <jcr:content
+        cq:name="foot.jpg"
+        cq:parentPath="/content/dam/Xumak"
+        jcr:lastModified="{Date}2013-06-26T16:34:49.137+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        restored="{Boolean}true">
+        <metadata
+            dam:Bitsperpixel="24"
+            dam:extracted="{Date}2013-06-26T16:14:26.000+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="1"
+            dam:Numberoftextualcomments="0"
+            dam:Physicalheightindpi="-1"
+            dam:Physicalheightininches="-1.0"
+            dam:Physicalwidthindpi="-1"
+            dam:Physicalwidthininches="-1.0"
+            dam:Progressive="no"
+            dam:sha1="3bf77edbabf2323804b08e8dfbfe91cdcd2b2086"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2013-06-26T16:34:44.000+05:30"
+            jcr:lastModified="{Date}2013-06-26T16:34:44.358+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}154"
+            tiff:ImageWidth="{Long}4"
+            xmp:CreatorTool="Adobe Photoshop CS5 Windows"
+            xmpMM:DocumentID="xmp.did:7C22826E7FBE11E0BAFDF233266C0846"
+            xmpMM:InstanceID="xmp.iid:7C22826D7FBE11E0BAFDF233266C0846">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:7C22826C7FBE11E0BAFDF233266C0846"
+                stRef:instanceID="xmp.iid:7C22826B7FBE11E0BAFDF233266C0846"
+                newRendition="{Boolean}true"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

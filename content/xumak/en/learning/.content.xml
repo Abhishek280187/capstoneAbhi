@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T15:36:03.859+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:description="Training &amp; Workshops, CQ Adobe® Authorized Instructors (ACI) &amp; AATC"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="LEARNING"
+        sling:resourceType="xumak/components/page/subpage">
+        <image
+            jcr:lastModified="{Date}2013-06-26T19:01:04.478+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-27T11:09:48.913+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;h5>Our classes are taught by CQ Adobe® Authorized Instructors (ACI) around the world or at our Adobe® Authorized Training Center in Latin America (AATC)&lt;/h5>&#xa;&lt;p>We offer high-quality training for all levels from authors to architects. &amp;nbsp;Whether just beginning or at an advanced level, we have the expertise to take you further.&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <content-image
+            jcr:lastModified="{Date}2013-06-27T11:10:04.061+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/xumak-aatc-cq5-adobe.png"/>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-27T15:17:17.210+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:05:54.645+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Add'l Savings from our AATC"
+                links="[{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_aatc_latin_america&quot;\,&quot;text&quot;:&quot;CQ5.5 Developer&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_aatc_latin_america&quot;\,&quot;text&quot;:&quot;CQ 5.5 System Administration&quot;}]"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-27T15:17:54.259+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T12:44:03.265+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Need CQ5 classes in India?"
+                links="\{&quot;url&quot;:&quot;mailto:training@xumak.com&quot;,&quot;text&quot;:&quot; We deliver ALL the official CQ5 Adobe® courses as far as India! Please contact us for more information at training@xumak.com&quot;}"/>
+            <rightcontentbox_1
+                jcr:created="{Date}2013-06-27T15:19:00.627+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:36:03.856+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Other JCR based Products"
+                links="[{&quot;url&quot;:&quot;http://jackrabbit.apache.org/&quot;\,&quot;text&quot;:&quot;Jackrabbit&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/reasons&quot;\,&quot;text&quot;:&quot;Reasons to learn with us?&quot;}]"/>
+        </right-parsys>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-27T17:30:28.015+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T17:31:06.283+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                heading="Learning"
+                subheading="Training &amp; Workshops, CQ Adobe® Authorized Instructors (ACI) &amp; AATC">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <textimage
+                jcr:created="{Date}2013-06-27T18:10:40.237+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:23:11.349+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>XumaK's Advance CQ5 Workshops&lt;/p>&#xa;&lt;p>&lt;a>CQ5 Advance Developer Workshop - learn more&amp;gt;&amp;gt;&lt;/a>&lt;br>&#xa;&lt;a>CQ5 Advance Administrator Workshop - learn more&amp;gt;&amp;gt;&lt;/a>&lt;br>&#xa;&lt;a>CQ5 Advance Architect Workshop - learn more&amp;gt;&amp;gt;&lt;/a>&lt;br>&#xa;&lt;a>CQ5 Advance Author Workshop - learn more&amp;gt;&amp;gt;&lt;/a>&lt;/p>&#xa;&lt;p>To register for Adobe® Official CQ5 Training delivered by Adobe or XumaK, please follow the below links:&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.onlineregistrationcenter.com/registerlist.asp?m=313&amp;amp;sb=1&amp;amp;s=1&amp;amp;p=3&amp;amp;font=1&amp;amp;deh=1&amp;amp;rt=View%20/%20Register&amp;amp;group=1&quot;>CQ 5.5 System Admin&lt;br>&#xa; CQ 5.5 Developer&lt;br>&#xa; CQ 5.5 Author&lt;/a>&lt;/p>&#xa;"
+                heading="ADOBE® TRAINING COURSES OFFERED @ XUMAK"
+                image="/content/dam/Xumak/icon-3.png"/>
+            <container
+                jcr:created="{Date}2013-06-27T18:27:03.617+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:27:14.474+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/container"
+                heading="Official Adobe® Classes Offered On Demmand"/>
+            <textimage_0
+                jcr:created="{Date}2013-06-27T18:27:30.021+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:31:26.023+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>Audience: The CQ 5.5 Developer class is designed for developers who wish to learn more about application development with the CQ WCM Platform.&lt;/p>&#xa;"
+                heading="Sessions in Guatemala City, Guatemala: CQ 5.5 Developer Training."
+                image="/content/dam/Xumak/CQ5-Training.png"/>
+            <textimage_1
+                jcr:created="{Date}2013-06-27T18:31:51.624+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:32:31.416+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>The CQ5.5 System Administrator training focuses on how to install, configure, maintain and troubleshoot CQ5.&lt;/p>&#xa;"
+                heading="Sessions in Guatemala City: CQ 5.5 System Administration Training"
+                image="/content/dam/Xumak/CQ5-Training.png"/>
+            <container_0
+                jcr:created="{Date}2013-06-27T18:32:43.205+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:32:48.856+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/container"
+                heading="About Our Training Capability"/>
+            <textimage_2
+                jcr:created="{Date}2013-06-27T18:32:56.280+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:33:25.351+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>&lt;p>XumaK’s professional services experience with CQ and JCR based applications, since we were founded in 2003, have taught us a lot about what makes a customer successful.&lt;/p>&#xa;&lt;p>Whether it is an implementation, a migration, a product upgrade or even correcting someone else’s mistake, we've seen it all. Some might even call us &amp;quot;experts&amp;quot;, either way; we want to share our knowledge with you.&lt;/p>&#xa;&lt;p>We are pleased to offer the Official Adobe® classes and a series of custom Workshops specifically designed for Adobe® CQ5 customers and partners. Each class offers a comprehensive approach to the subject matter and includes best practices, common mistakes, important fringe topics and relevant examples, some provided by students. The Workshops can be configured to support Train-the-Trainer programs and educate implementation teams.&lt;/p>&#xa;&lt;p>XumaK's high-quality training and workshops are taught by not only experienced and patient professionals, but by CQ Adobe® Certified Instructors (ACI). Our CQ ACI instructors have real-world experience in CQ-implementations and have helped customers just like you realize CQ’s true potential in their environment.&lt;/p>&#xa;&lt;p>Adobe® has granted XumaK an Adobe® Authorized Training Center (AATC) in Latin America... which proves that we are true experts on this product.&lt;/p>&#xa;&lt;/p>&#xa;"
+                heading="XumaK delivering training since its inception!"
+                image="/content/dam/Xumak/CQ5-Training1.png"/>
+            <container_1
+                jcr:created="{Date}2013-06-27T19:29:41.297+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T19:29:50.696+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/container"
+                heading="ADDITIONAL SAVINGS"/>
+            <content
+                jcr:created="{Date}2013-06-27T19:34:02.688+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:00:23.002+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/content"
+                description="&lt;p>&lt;b>FOR ADDITIONAL SAVINGS&lt;/b> , when registering for one of our training in our AATC in Guatemala City, the following is included in the price package:&lt;/p>&#xa;&lt;ul style=&quot;list-style-image: url(../etc/designs/xumak/clientlib/images/bullet_x.png);&quot;>&#xa;&lt;li>Hard copy for training materials&lt;/li>&#xa;&lt;li>Transportation from Airport to Hotel and Hotel to Airport&lt;/li>&#xa;&lt;li>Transportation from Hotel to XumaK's office&lt;/li>&#xa;&lt;li>Breakfast &amp;amp; Lunch&lt;/li>&#xa;&lt;li>Lodging&lt;ul>&#xa;&lt;li>For developer: up to 5 nights&lt;/li>&#xa;&lt;li>For Sys Admin: up to 4 nights&lt;/li>&#xa;&lt;li>Once you are registered, we will book your hotel and will send you your itinerary within 24 hrs&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;"/>
+            <textimage_3
+                jcr:created="{Date}2013-06-28T15:02:01.752+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:02:57.661+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>&lt;b>CONTACT US TO INQUIRE ABOUT OUR CLASSES OR TO REGISTER&lt;/b>&lt;/p>&#xa;&lt;p>email us @ &lt;a href=&quot;mailto:training@xumak.com?subject=Training%20Inquiry&quot;>training@xumak.com&lt;/a> or call us at +1.213.232.3366&lt;/p>&#xa;"/>
+            <image
+                jcr:created="{Date}2013-06-28T15:03:37.092+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:03:56.648+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/Xumak/content-banner_0001_aatc-copy.png"/>
+        </left-parsys>
+    </jcr:content>
+    <cq5_aatc_latin_america/>
+    <reasons/>
+    <cq5_advance_administrator_workshop/>
+    <cq5_advance_architect_workshop/>
+    <cq5_advance_author_workshop/>
+    <cq5_advance_developer_workshop/>
+    <magnolia-servicestraining/>
+</jcr:root>

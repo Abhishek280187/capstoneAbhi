@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T15:32:31.680+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="cq5_aatc_latin_america"
+        sling:resourceType="xumak/components/page/subpage">
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T15:06:42.643+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/xumak-aatc-cq5-adobe.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T15:06:46.625+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>CQ5 - Adobe® Authorized Training Center&lt;/h1>&#xa;&lt;h5>Serving The Americas from Guatemala City, Guatemala&lt;/h5>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-28T15:07:13.287+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:07:34.686+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>XumaK training center seats in a penthouse at a 14th floor of one of the newest buildings in Guatemala City with 360-degree view of the city and its surrounding volcanoes.&lt;/p>&#xa;&lt;p>This location is strategically close to the most important places in the city, 15 minutes from the international airport and 5 minutes from the financial district and hotels.&lt;/p>&#xa;&lt;p>&lt;br>&#xa;Our training center information is the following:&lt;br>&#xa;&lt;a href=&quot;http://maps.google.com/maps?q=12-42+Diagonal+6,+Zona+10,+Guatemala+City,+Guatemala&amp;amp;hl=en&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=64.153332,131.396484&amp;amp;vpsrc=0&amp;amp;hnear=Calle+Real+De+La+Villa+De+Guadalupe,+Zona+10,+Guatemala+City,+Guatemala&amp;amp;t=h&amp;amp;z=17&quot;>XumaK&lt;br>&#xa; Diagonal 6, 12-42 Zona 10&lt;br>&#xa; Design Center, Torre 1, Nivel 14&lt;br>&#xa; Guatemala City, Guatemala 01010&lt;br>&#xa; &lt;/a>Tel: +502-2365-6869 Fax: +1.213.947.4032&lt;b>&lt;br>&#xa;&lt;/b>&lt;/p>&#xa;&lt;p>If you have any questions, don’t hesitate to &lt;a>contact us&lt;/a>.&lt;/p>&#xa;"
+                heading="CQ5 Adobe® Authorized Training Center, Guatemala City, Latin America">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <container
+                jcr:created="{Date}2013-06-28T15:25:42.702+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:25:46.406+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/container"
+                heading="Official Adobe Classes Offered On Demmand"/>
+            <textimage
+                jcr:created="{Date}2013-06-28T15:26:01.259+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:26:56.213+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>Audience: The CQ 5.5 Developer class is designed for developers who wish to learn more about application development with the CQ WCM Platform.&lt;/p>&#xa;&lt;p>Contact us for availability at &lt;a href=&quot;mailto:training@XumaK.com?subject=Requesting%20information%20about%20CQ5%20Developer%20training%20in%20Guatemala%20City&quot;>training@XumaK.com&lt;/a>&lt;/p>&#xa;"
+                heading="Session in Guatemala City, Guatemala: CQ 5.5 Developer Training."
+                image="/content/dam/Xumak/CQ5-Training.png"/>
+            <textimage_0
+                jcr:created="{Date}2013-06-28T15:27:09.727+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:27:38.691+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>The CQ5.5 System Administrator training focuses on how to install, configure, maintain and troubleshoot CQ5.&lt;/p>&#xa;&lt;p>Contact us for availability at &lt;a href=&quot;mailto:training@XumaK.com?subject=Requesting%20information%20about%20CQ%20Sys%20Admin%20training%20in%20Guatemala%20City&quot;>training@XumaK.com&lt;/a>&lt;/p>&#xa;"
+                heading="Session in Guatemala City: CQ 5.5 System Administration Training"
+                image="/content/dam/Xumak/CQ5-Training.png"/>
+            <container_0
+                jcr:created="{Date}2013-06-28T15:28:04.325+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:28:08.105+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/container"
+                heading="ADDITIONAL SAVINGS"/>
+            <content
+                jcr:created="{Date}2013-06-28T15:28:21.096+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:28:27.791+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/content"
+                description="&lt;p>&lt;b>FOR ADDITIONAL SAVINGS&lt;/b>, when registering for one of our training in our AATC in Guatemala City, the following is included in the price package:&lt;ul>&#xa;&lt;li>Hard copy for training materials&lt;/li>&#xa;&lt;li>Transportation from Airport to Hotel and Hotel to Airport&lt;/li>&#xa;&lt;li>Transportation from Hotel to XumaK's office&lt;/li>&#xa;&lt;li>Breakfast &amp;amp; Lunch&lt;/li>&#xa;&lt;li>Lodging at any of the hotels noted on the right&lt;ul>&#xa;&lt;li>For developer: up to 5 nights&lt;/li>&#xa;&lt;li>For Sys Admin: up to 4 nights&lt;/li>&#xa;&lt;li>Once you are registered, we will book your hotel and will send you your itinerary within 24 hrs&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/p>&#xa;"/>
+            <textimage_1
+                jcr:created="{Date}2013-06-28T15:28:46.491+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:29:01.354+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>&lt;b>CONTACT US TO INQUIRE ABOUT OUR CLASSES OR TO REGISTER&lt;/b>&lt;/p>&#xa;&lt;p>email us @ &lt;a href=&quot;mailto:training@xumak.com?subject=Training%20Inquiry&quot;>training@xumak.com&lt;/a> or call us at +1.213.232.3366&lt;/p>&#xa;"/>
+            <image
+                jcr:created="{Date}2013-06-28T15:29:35.317+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:29:49.212+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/Xumak/content-banner_0001_aatc-copy.png"/>
+        </left-parsys>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-28T15:30:23.772+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:30:36.647+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Airport"
+                links="\{&quot;url&quot;:&quot;#&quot;,&quot;text&quot;:&quot;Guatemala City - GUA-La Aurora Intl. &quot;}"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-28T15:30:47.863+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:32:00.280+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Suggested Hotels"
+                links="[{&quot;url&quot;:&quot;/content/xumak&quot;\,&quot;text&quot;:&quot;Inter-Continental&quot;},{&quot;url&quot;:&quot;http://www.hotelcaminoreal.com.gt/index.php?lang=en&quot;\,&quot;text&quot;:&quot;Westin Camino Real&quot;},{&quot;url&quot;:&quot;http://www.hotelbiltmore.com.gt/&quot;\,&quot;text&quot;:&quot;Hotel Biltmore&quot;},{&quot;url&quot;:&quot;#&quot;\,&quot;text&quot;:&quot; NOTE: All suggested hotels provide shuttle for pickup and drop-off at airport\, request this service when booking. Use the \\&quot;XumaK\\&quot; corporate rate!&quot;}]"/>
+            <rightcontentbox_1
+                jcr:created="{Date}2013-06-28T15:32:18.501+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:32:31.677+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Important Notes"
+                links="\{&quot;url&quot;:&quot;#&quot;,&quot;text&quot;:&quot;You must have a valid passport for International traveling &quot;}"/>
+        </right-parsys>
+    </jcr:content>
+</jcr:root>

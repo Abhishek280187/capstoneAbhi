@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T17:33:09.869+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact"
+        sling:resourceType="xumak/components/page/subpage"
+        hideInNav="true">
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <contact_us
+                jcr:created="{Date}2013-06-27T18:52:13.202+05:30"
+                jcr:createdBy="admin"
+                jcr:description="we are here to help you!"
+                jcr:lastModified="{Date}2013-06-27T18:57:10.714+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Contact"
+                sling:resourceType="xumak/components/content/contact-us"
+                fileReference="/content/dam/Xumak/content_0000_Group-1-copy.png"
+                imageRotate="0"/>
+            <contactus
+                jcr:created="{Date}2013-06-28T16:15:13.734+05:30"
+                jcr:createdBy="admin"
+                jcr:description="we are here to help you!"
+                jcr:lastModified="{Date}2013-06-28T16:25:35.627+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Contact"
+                sling:resourceType="xumak/components/content/contactus"
+                fileReference="/content/dam/Xumak/content_0000_Group-1-copy.png"
+                imageRotate="0"/>
+        </left-parsys>
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T16:29:48.724+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/header_0000_PM_xumak.png"
+            imageRotate="0"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T16:30:11.445+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>XumaK&lt;/h1>&#xa;&lt;h5>Global Integration Team - Professional Services&lt;/h5>&#xa;&lt;p>Primary Office Location in USA&amp;nbsp;and Latin America&lt;/p>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <image
+            jcr:lastModified="{Date}2013-06-28T17:33:09.866+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

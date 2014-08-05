@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-07-03T11:01:11.886+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="contactenos"
+        sling:resourceType="xumak/components/page/subpage"
+        hideInNav="true">
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T16:33:09.002+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/header_0000_PM_xumak.png"
+            imageRotate="0"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T16:33:28.266+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>XumaK&lt;/h1>&#xa;&lt;h5>Global Integration Team - Professional Services&lt;/h5>&#xa;&lt;p>Ubicación de las oficinas principales son en EE.UU. y Latino America&lt;/p>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <contactus
+                jcr:created="{Date}2013-06-28T16:33:34.667+05:30"
+                jcr:createdBy="admin"
+                jcr:description="¡Se parte de nuestro equipo Elite en desarrollo!"
+                jcr:lastModified="{Date}2013-06-28T16:34:24.605+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Contáctenos!"
+                sling:resourceType="xumak/components/content/contactus"
+                fileReference="/content/dam/Xumak/content_0000_Group-1-copy.png"
+                imageRotate="0"/>
+        </left-parsys>
+        <image
+            jcr:lastModified="{Date}2013-07-03T11:01:11.881+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="3 Column Heading"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <basic
+            jcr:primaryType="cq:Widget"
+            title="General"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Select Image"
+                    name="./image"
+                    xtype="pathfield"/>
+                <buttonlink
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Get Started Link"
+                    name="./buttonlink"
+                    xtype="pathfield"/>
+                <heading
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Heading"
+                    name="./heading"
+                    xtype="textfield"/>
+                <subheading
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Sub Heading"
+                    name="./subheading"
+                    xtype="textfield"/>
+                <para1
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Para 1"
+                    name="./para1"
+                    xtype="textfield"/>
+                <para2
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Para 2"
+                    name="./para2"
+                    xtype="textfield"/>
+                <alignmenttype
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="{Boolean}false"
+                    fieldLabel="Select text alignment"
+                    name="./alignmenttype"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <o1
+                            jcr:primaryType="nt:unstructured"
+                            text="Right"
+                            value="right"/>
+                        <o2
+                            jcr:primaryType="nt:unstructured"
+                            text="Left"
+                            value="left"/>
+                    </options>
+                </alignmenttype>
+                <imagelink
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Image Link"
+                    name="./imagelink"
+                    xtype="pathfield"/>
+            </items>
+        </basic>
+    </items>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4b76ac89-297e-4923-9f56-3821426c4586">
+    <jcr:content
+        cq:name="linkedin.jpg"
+        cq:parentPath="/content/dam/Xumak"
+        jcr:lastModified="{Date}2013-06-26T16:34:49.450+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        restored="{Boolean}true">
+        <metadata
+            dam:Bitsperpixel="24"
+            dam:extracted="{Date}2013-06-26T16:14:25.000+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="1"
+            dam:Numberoftextualcomments="0"
+            dam:Physicalheightindpi="-1"
+            dam:Physicalheightininches="-1.0"
+            dam:Physicalwidthindpi="-1"
+            dam:Physicalwidthininches="-1.0"
+            dam:Progressive="no"
+            dam:sha1="0366e3c4d749ac4f3b9cd361cb22146e8b8371f7"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2013-06-26T16:34:46.000+05:30"
+            jcr:lastModified="{Date}2013-06-26T16:34:46.545+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}17"
+            tiff:ImageWidth="{Long}17"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

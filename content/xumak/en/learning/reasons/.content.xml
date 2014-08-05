@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T16:07:04.010+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="reasons"
+        sling:resourceType="xumak/components/page/subpage">
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T15:37:52.681+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/header_0005_iStock_000002027164Medium.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T15:37:57.130+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;h5>What it takes...&lt;/h5>&#xa;&lt;p>Have you ever thought about what it takes to become a World Champion in Chess? We admit, the rules you learn in an hour and then be able to beat your friends. But if you want to go for the World Championship, you need some World Class players and trainers to bring you there!&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-28T15:38:10.511+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T15:38:25.041+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                heading="Reasons to attend our training &amp; workshops">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <textimage_0
+                jcr:created="{Date}2013-06-28T16:04:52.319+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:04:52.319+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>&lt;p>Each of our courses is designed to help you acquire the practical skills you need. Because our training is focused the training materials and exercises we provide are re-usable in real world projects.&lt;/p>&#xa;&lt;p>&lt;b>Acquire Real-World Solutions&lt;/b>&lt;/p>&#xa;&lt;p>Our instructors are seasoned practitioners who give you practical skills and techniques that they have applied with proven results over years of use.&lt;/p>&#xa;&lt;p>&lt;b>Learn from Expert Instructors&lt;/b>&lt;/p>&#xa;&lt;p>Rather than going to manuals, our instructors will provide you with the right exercises to accomplish your project.&lt;br>&#xa;Athletes train, artists train, even managers train to be great on their job! So don't hesitate to get on a XumaK training to optimize your skills in Content Repositories and JSR 170/283 Technology!&lt;/p>&#xa;&lt;p>We at Xumak believe that creating a &amp;quot;World Champion&amp;quot; Web initiative takes far more than programming skills. You will need the best technology, project engineering, creative design, marketing and development skills.&lt;/p>&#xa;&lt;p>We can not make you a &amp;quot;World Champion&amp;quot;, but we sure can bring you into the &amp;quot;Tournament&amp;quot;!&lt;/p>&#xa;&lt;/p>&#xa;"
+                heading="Acquire Practical Skills"
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5-LeadDevelopers.png"/>
+            <textimage
+                jcr:created="{Date}2013-06-28T16:04:48.294+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:04:48.294+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"/>
+        </left-parsys>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-28T16:05:23.144+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T16:07:04.006+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Advance CQ5 Workshops"
+                links="[{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_developer_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Developer Workshop&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_administrator_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Administrator Workshop&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_architect_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Architect Workshop&quot;},{&quot;url&quot;:&quot;/content/xumak/en/learning/cq5_advance_author_workshop&quot;\,&quot;text&quot;:&quot;CQ5 Advance Author Workshop&quot;}]"/>
+        </right-parsys>
+    </jcr:content>
+</jcr:root>

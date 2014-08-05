@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/xumak"
+        cq:lastModified="{Date}2013-07-03T13:58:57.570+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/partialpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel Slide 5"
+        sling:resourceType="xumak/components/page/partialpage">
+        <slide-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carouselslide
+                jcr:created="{Date}2013-07-03T13:51:03.491+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-03T13:58:57.565+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/carouselslide"
+                alignmenttype="right"
+                buttonlink="/content/xumak/en/yourcqteam"
+                heading="CQ 5 Implementations, Training, Workshops, Curriculum Development"
+                image="/content/dam/Xumak/team__0000_Integrate-copy.png"
+                imagelink="/content/xumak/en"
+                subheading="XumaK is truly FOCUSED and with over 50 CQ5 team members we know we can HELP YOU!"/>
+        </slide-par>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/xumak"
+        cq:lastModified="{Date}2013-07-04T12:27:42.335+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/partialpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel Slide 6"
+        sling:resourceType="xumak/components/page/partialpage">
+        <slide-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carouselslide
+                jcr:created="{Date}2013-07-04T12:20:56.302+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-04T12:27:42.332+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/carouselslide"
+                alignmenttype="left"
+                buttonlink="/content/xumak/en/services"
+                heading="Test Carasoul"
+                image="/content/dam/Xumak/XumaK-Guatemala-AATC-CQ5-NearShorOffices.png"
+                imagelink="/content/xumak/en"
+                para1="Test Carasoul"
+                para2="Test Carasoul"
+                subheading="Test 1"/>
+        </slide-par>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-07-03T11:00:50.425+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:description="¿En que te podemos ayudar?"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ACERCA DE XUMAK"
+        sling:resourceType="xumak/components/page/subpage">
+        <image
+            jcr:lastModified="{Date}2013-07-03T11:00:50.417+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-27T11:11:43.900+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>We are XumaK&lt;/h1>&#xa;&lt;h5>&amp;nbsp;&lt;/h5>&#xa;&lt;p>a Global Integration Team with deep roots in the world of CQ and its underlaying technology...&lt;/p>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <content-image
+            jcr:lastModified="{Date}2013-06-27T11:11:53.273+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/nav_back_image_2_0000s_0000_LD_xumak.png"/>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-27T15:27:43.538+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-01T09:28:25.769+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Líder de XumaK"
+                links="\{&quot;url&quot;:&quot;&quot;,&quot;text&quot;:&quot;Marcos Andres Antil, Fundador &amp; Presidente (CEO)&quot;}"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-27T15:28:07.572+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-01T09:30:03.269+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Datos Importantes"
+                links="[{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;USA: XumaK\, LLC; Fundadada en 2003&quot;},{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;Latinoamérica: Oficinas \\&quot;Near Shore\\&quot;; Fundada en 2008 &quot;}]"/>
+        </right-parsys>
+        <Copy_x0020_of_x0020_right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-27T15:27:43.538+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:44:22.661+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="XumaK Lead"
+                links="\{&quot;url&quot;:&quot;&quot;,&quot;text&quot;:&quot;Marcos Andres, Founder &amp; CEO &quot;}"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-27T15:28:07.572+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:44:28.599+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Quick Facts"
+                links="[{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;USA: XumaK\, LLC; Founded in 2003 &quot;},{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;Latin America: Near Shore office opened in 2008 &quot;}]"/>
+            <rightcontentbox_1
+                jcr:created="{Date}2013-06-27T15:28:50.077+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T15:29:06.368+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Contact US"
+                links="\{&quot;url&quot;:&quot;/content/xumak/en/contact&quot;,&quot;text&quot;:&quot;Contact&quot;}"/>
+            <rightcontentbox_2
+                jcr:created="{Date}2013-06-27T15:29:16.051+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:44:53.743+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Guatemala"
+                links="[{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;XumaK Expands Near Shore Office - Guatemala City&quot;},{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;Oportunidades de trabajo&quot;}]"/>
+            <rightcontentbox_3
+                jcr:created="{Date}2013-06-28T12:47:10.046+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:45:16.991+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Yahoo News "
+                links="\{&quot;url&quot;:&quot;/content/xumak/en/aboutus/news&quot;,&quot;text&quot;:&quot;Top Yahoo News &quot;}"/>
+        </Copy_x0020_of_x0020_right-parsys>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-27T17:33:33.005+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-30T22:39:15.523+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>XumaK fue fundada a finales del año 2003 por un ex empleado de la compañía Day Software. Su motivación fue la casi desesperada y creciente necesidad de ofrecer servicios de consultorías, desarrollo y capacitación a consecuencia de la abrumadora demanda de soluciones basadas en la tecnología del Sistema Communiqué (CQ) Manejador de Contenido.&lt;/p>&#xa;&lt;p>XumaK inició prestando sus servicios en el 2004. Nuestra experiencia va desde la implementación de proyectos basados en los Manejadores de Contenido líderes en el mercado hasta la provisión de capacitación en CQ o JSR-170/283 a compañías al rededor del mundo.&lt;/p>&#xa;&lt;p>XumaK es uno de los pocos proveedores de soluciones en el área de soluciones globales de manejo de contenido, construidas en el innovador Repositorio de Contenido Java (JCR, aka:JSR-170/283). Consolidando el trabajo y campo recorrido por el equipo Xumak, hemos sumado cerca de 35 años de experiencia en consultorías y manejo de proyectos. Incluyendo 10 años de sólido conocimiento en JSR-170/283 desde su misma invención.&lt;/p>&#xa;&lt;p>Nuestra misión:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Proveer las mejores soluciones en manejo de contenido de la manera más inteligente, breve y eficaz.&lt;/li>&#xa;&lt;li>Proveer el mejor entrenamiento para usuarios en el tiempo más adecuado.&lt;/li>&#xa;&lt;li>Asegurar el traslado apropiado de conocimiento a nuestros clientes para que puedan ser autosuficientes con nuestros productos.&lt;/li>&#xa;&lt;li>Satisfacer o incluso exceder las expectativas de los clientes, manteniendo el alcance y la más alta calidad en las soluciones.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Los miembros de nuestro equipo son expertos en la tecnología de punta del Repositorio de Contenido Java (JCR 170/183) estándar utilizado para optimizar la organización de recursos digitales. Siendo también el estándar en el cual se basa CQ5.&lt;/p>&#xa;&lt;p>En XumaK ofrecemos a nuestros clientes un enfoque unificado para definir, optimizar y alinear su estrategia de negocios. La combinación de nuestras consultorías en el manejo de proyectos, manejo de contenido y prácticas de entrenamiento, nos dan capacidades sin paralelo en el análisis, diseño, implementación e instalación de la plataforma de vanguardia CQ5.&lt;/p>&#xa;&lt;p>Además en XumaK podemos ayudarle a identificar e implementar soluciones que maximicen el uso de la tecnología, optimizando sus recursos digitales al costo más efectivo.&lt;/p>&#xa;"
+                heading="Acerca de XumaK"
+                subheading="¿En que te podemos ayudar?">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <textimage
+                jcr:created="{Date}2013-06-30T22:40:01.763+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-30T22:40:01.763+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/textimage"/>
+        </left-parsys>
+    </jcr:content>
+    <apertura-nuevas-oficinasguatemala/>
+</jcr:root>

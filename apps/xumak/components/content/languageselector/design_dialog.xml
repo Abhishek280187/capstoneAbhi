@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Language Selector"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Title"
+            name="./pageTitle"
+            xtype="textfield"/>
+        <firstCountry
+            jcr:primaryType="cq:Widget"
+            fieldLabel="First Country Location"
+            name="./firstCountryLocation"
+            xtype="pathfield"/>
+        <secondCountry
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Second Country Location"
+            name="./secondCountryLocation"
+            xtype="pathfield"/>
+        <firstCountryImage
+            jcr:primaryType="cq:Widget"
+            fieldLabel="FirstCountryImage"
+            name="./firstCountryImage"
+            xtype="pathfield"/>
+        <secondCountryImage
+            jcr:primaryType="cq:Widget"
+            fieldLabel="SecondCountryImage"
+            name="./secondCountryImage"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/xumak"
+        cq:lastModified="{Date}2013-07-05T11:30:51.886+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/homepage"
+        jcr:description="CQ5 - Global Integration Team"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HOME"
+        sling:resourceType="xumak/components/page/homepage">
+        <image
+            jcr:lastModified="{Date}2013-06-26T18:59:33.377+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <col1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_3colheading
+                jcr:created="{Date}2013-06-27T13:50:40.178+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-04T12:32:31.739+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/3colheading"
+                heading="Xumak"
+                headingLink="/content/xumak/en/aboutus"
+                image="/content/dam/Xumak/contc.png"
+                subheading="Global Integration Team - Professional Services"/>
+            <text
+                jcr:created="{Date}2013-06-27T14:43:28.337+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T14:52:57.442+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/text"
+                text="&lt;div class=&quot;mdisi&quot;>&lt;p>XumaK is one of the few truly experienced teams in the industry of Java Content Repository (JCR) based systems (AKA: jsr 170/283). We strive in studying the underlying technologies in order to assist our clients with their CQ5 Web Experience Management (WEM) implementation. As experience business advisors and systems integrators, we provide you with the right advice and solutions with YOUR best interest in mind.&lt;/p>&#xa;&lt;/div>&#xa;"
+                textIsRich="true"/>
+        </col1>
+        <col2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_3colheading
+                jcr:created="{Date}2013-06-27T11:34:19.158+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T12:25:04.736+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/3colheading"
+                heading="Technologies we Support"
+                headingLink="/content/xumak/en/services"
+                image="/content/dam/Xumak/globe.png"
+                subheading="and we love them..."/>
+            <bottomlist
+                jcr:created="{Date}2013-06-28T18:56:05.940+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-30T21:48:11.441+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                linkPath="/content/xumak/en/services/cq5"
+                title=" Adobe® - CQ5 y versiones anteriores "/>
+            <bottomlist_0
+                jcr:created="{Date}2013-06-30T21:48:14.661+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-04T12:35:58.808+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                linkPath="/content/xumak/en/services/cq5"
+                title=" Adobe® CRX y aplicaciones de JCR "/>
+            <bottomlist_1
+                jcr:created="{Date}2013-06-30T21:51:01.963+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-30T21:51:48.783+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                linkPath="/content/xumak/en/learning/magnolia-servicestraining"
+                title=" Magnolia CMS "/>
+        </col2>
+        <col3
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_3colheading
+                jcr:created="{Date}2013-06-27T11:34:23.063+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T11:58:08.742+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/3colheading"
+                heading="Contact Us"
+                image="/content/dam/Xumak/tech.png"
+                subheading="we will help you!"/>
+            <bottomlist
+                jcr:created="{Date}2013-06-30T22:04:23.698+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-30T22:05:00.938+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                title="Email: info@xumak.com "/>
+            <bottomlist_0
+                jcr:created="{Date}2013-06-30T22:04:28.538+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-30T22:10:52.630+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                title="Tel: +1.213.232.3366"/>
+            <bottomlist_3
+                jcr:created="{Date}2013-07-02T16:00:28.090+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-02T16:01:13.784+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                title="Fax: +1.213.947.4032 "/>
+            <bottomlist_1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/target">
+                <default
+                    jcr:created="{Date}2013-06-30T22:11:15.310+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-30T22:20:28.719+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/bottomlist"
+                    title="Siguenos:   &lt;a target=&quot;_blank&quot; href=&quot;http://www.twitter.com/TeamXumaK&quot; class=&quot;twitter&quot;>&lt;img src=&quot;/content/dam/Xumak/twitter.png&quot;>&lt;/a>                                 &lt;a target=&quot;_blank&quot; href=&quot;http://www.facebook.com/XumaK&quot; class=&quot;fb&quot;>&lt;img src=&quot;/content/dam/Xumak/fb.png&quot;>&lt;/a>"/>
+            </bottomlist_1>
+            <bottomlist_2
+                jcr:created="{Date}2013-06-30T22:25:33.619+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-02T16:02:19.973+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/bottomlist"
+                linkPath="/content/xumak/en/contact"
+                title="USA &amp; Latin America"/>
+        </col3>
+        <carousel
+            jcr:lastModified="{Date}2013-07-05T11:30:51.857+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="xumak/components/content/carousel"
+            pages="[/content/xumak/en/carousel-slides/carousel-slide-1,/content/xumak/en/carousel-slides/carousel-slide-2,/content/xumak/en/carousel-slides/carousel-slide-3,/content/xumak/en/carousel-slides/carousel-slide-4,/content/xumak/en/carousel-slides/carousel-slide-5]"/>
+    </jcr:content>
+    <services/>
+    <learning/>
+    <yourcqteam/>
+    <aboutus/>
+    <contact/>
+    <carousel-slides/>
+    <search-results/>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="3 Column Heading"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <basic
+            jcr:primaryType="cq:Widget"
+            title="Heading"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <heading
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Enter Heading Here"
+                    name="./heading"
+                    xtype="textfield"/>
+            </items>
+        </basic>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            title="MultiLink"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <links
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Press + to add more links"
+                    fieldLabel="Links"
+                    hideLabel="true"
+                    name="./links"
+                    width="1000"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="cq:Widget"
+                        xtype="CustomMultiField"/>
+                </links>
+            </items>
+        </advanced>
+    </items>
+</jcr:root>

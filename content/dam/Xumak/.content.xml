@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <en.jpg/>
+    <face.png/>
+    <favicon.ico/>
+    <linkedin.jpg/>
+    <listmbox.png/>
+    <next.png/>
+    <foot.jpg/>
+    <prev.png/>
+    <search.png/>
+    <fb.png/>
+    <logo.png/>
+    <list.jpg/>
+    <get.png/>
+    <sp.gif/>
+    <shadows.jpg/>
+    <team__0000_Integrate-copy.png/>
+    <Adobe-CQ5-Training.png/>
+    <nav_back_image_2_0000s_0000_others_noxumak.png/>
+    <XumaK-Guatemala-AATC-CQ5-NearShorOffices.png/>
+    <Adobe-CQ5.5-XumaK.png/>
+    <header_0005_iStock_000002027164Medium.png/>
+    <adobe-logos-xumak-cq5.png/>
+    <blacklogo.png/>
+    <xumak-aatc-cq5-adobe.png/>
+    <header_0005_Team-X-a-resouce-pool-copy-3.png/>
+    <nav_back_image_2_0000s_0000_LD_xumak.png/>
+    <globe.png/>
+    <contc.png/>
+    <tech.png/>
+    <icon-3.png/>
+    <team__0000_Layer-6-copy.png/>
+    <team__0000_Layer-3.png/>
+    <team__0000_Layer-4-copy.png/>
+    <team_0000_others_noxumak.png/>
+    <team__0000_Layer-5-copy.png/>
+    <CQ5-Training.png/>
+    <content-banner_0001_aatc-copy.png/>
+    <CQ5-Training1.png/>
+    <twitter.png/>
+    <Adobe-XumaK-CQ5-LeadDevelopers.png/>
+    <Adobe-XumaK-CQ5-Developers.png/>
+    <Adobe-XumaK-CQ5-ProjectManagers-Architects.png/>
+    <Adobe-XumaK-CQ5-ContentMigrators.png/>
+    <Adobe-XumaK-CQ5.png/>
+    <content_0000_Group-1-copy.png/>
+    <XumaK-NearShore-Office-Guatemala.png/>
+    <XumaK-Oportunidades.png/>
+    <nav_back_image_2_0000_Layer-1.png/>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <header_0000_PM_xumak.png/>
+</jcr:root>

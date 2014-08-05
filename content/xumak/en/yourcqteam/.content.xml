@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T18:43:39.287+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:description="Adobe® CQ EXPERTS"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="YOUR CQ5 TEAM "
+        sling:resourceType="xumak/components/page/subpage">
+        <image
+            jcr:lastModified="{Date}2013-06-26T19:00:19.271+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-27T11:10:26.240+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>Your CQ5 Resource Pool&lt;/h1>&#xa;&lt;h5>Highly prepared and with real world experience&lt;/h5>&#xa;&lt;p>We are a team of truly committed practitioners.&amp;nbsp; We love what we do-we love CQ5!&lt;/p>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <content-image
+            jcr:lastModified="{Date}2013-06-27T11:11:11.102+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/header_0005_Team-X-a-resouce-pool-copy-3.png"/>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-27T15:19:49.351+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:43:05.702+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="WHAT IS YOUR NEED?"
+                links="[{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;You need a team of CQ5 experts? &quot;},{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;   Your team is incomplete and need some extra hands?&quot;},{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot;   You need CQ resources for short term? &quot;}]"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-27T15:26:47.172+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:43:39.280+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="WE CAN HELP!"
+                links="[{&quot;url&quot;:&quot;&quot;\,&quot;text&quot;:&quot; Contact us:      email: cq-support@xumak.com     tel: +1.213.232.3366   &quot;},{&quot;url&quot;:&quot;/content/xumak/en/contact&quot;\,&quot;text&quot;:&quot;Or Contact Us here.&quot;}]"/>
+        </right-parsys>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-27T17:31:59.603+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T17:33:10.309+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>Our team members can guide you on your first development steps into the CQ world.&lt;/p>&#xa;&lt;p>Our team members can also integrate within your existing CQ5 team, should you only need some extra hand.&lt;/p>&#xa;&lt;p>If you don’t have a CQ5 team, we can provide you one and integrate seamlessly within your organization.&lt;/p>&#xa;&lt;p>XumaK’s team members have real-world experience in CQ-implementations and we have helped customers just like you realize CQ's true potential in their environment.&lt;/p>&#xa;&lt;p>But if what you want is to get you up to speed, we can deliver to you training or workshops that will empower your development team by combining high-quality curriculum taught by real-world CQ professionals.&lt;/p>&#xa;"
+                heading="Your CQ5 Team"
+                subheading="Adobe® CQ EXPERTS">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <textimage
+                jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                heading="The client - Key Player"
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+            <textimage_0
+                jcr:created="{Date}2013-06-27T18:36:21.501+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:36:53.418+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>XumaK's CQ5 Developers have gone through extensive hands on training and workshops.&amp;nbsp; Most have worked on CQ5 projects and are well versed into the in and outs of CQ5 already.&lt;/p>&#xa;"
+                heading="CQ5 Developer"
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5-Developers.png"/>
+            <textimage_1
+                jcr:created="{Date}2013-06-27T18:36:25.018+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:37:18.835+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>XumaK's CQ5 Lead Developers are individuals that have not only done several CQ5 based projects, but some have also worked with previous versions of CQ.&amp;nbsp; They are well versed into the technology and its in and outs as well as very good knowledge of all the open source technologies which CQ5 is built on.&lt;/p>&#xa;"
+                heading="CQ5 Lead Developers"
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5-LeadDevelopers.png"/>
+            <textimage_2
+                jcr:created="{Date}2013-06-27T18:36:27.509+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:37:50.543+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>&lt;p>&lt;b>XumaK's CQ Architects&lt;/b> are those individuals that have had years of experience working with CMS, speficifically CQ&amp;nbsp; based projects.&amp;nbsp; They are well versed into the full deployment of a CQ based implementation to doing hardware sizing.&lt;/p>&#xa;&lt;p>&lt;b>XumaK's CQ&amp;nbsp;Project Managers&lt;/b> have had experience with managing CMS projects.&amp;nbsp; We have PMs that are technical and non-technical, depending on the client's desired.&amp;nbsp; When on a project, they are the ones managing the interaction between you the client and the CQ5 Lead Developer, ensuring that all requirements are met on time.&lt;/p>&#xa;&lt;/p>&#xa;"
+                heading="CQ Project Managers / CQ Architects"
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5-ProjectManagers-Architects.png"/>
+            <textimage_3
+                jcr:created="{Date}2013-06-27T18:36:29.662+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:38:25.808+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>XumaK's Content Migrators are those that assist in the migration of existing sites into CQ5.&amp;nbsp; They are Authors who know how to use CQ5 and know how to organize content.&amp;nbsp; They are usually the ones that review that an existing site's content has been fully migrated into CQ5, weather the migration happened manually or via site importer scripts implemented by the development team or by other third party applications/companies.&lt;/p>&#xa;"
+                heading="CQ5 Content Migrators"
+                image="/content/dam/Xumak/Adobe-XumaK-CQ5-ContentMigrators.png"/>
+        </left-parsys>
+    </jcr:content>
+</jcr:root>

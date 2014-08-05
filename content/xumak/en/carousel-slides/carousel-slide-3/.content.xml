@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/xumak"
+        cq:lastModified="{Date}2013-06-30T22:15:46.470+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/partialpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel Slide 3"
+        sling:resourceType="xumak/components/page/partialpage">
+        <slide-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <carouselslide
+                jcr:created="{Date}2013-06-28T14:50:58.228+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:52:25.426+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/carouselslide"
+                alignmenttype="right"
+                buttonlink="/content/xumak/en/aboutus/new-xumak-offices-Guatemala"
+                heading="Near Shore Office in Guatemala City"
+                image="/content/dam/Xumak/XumaK-Guatemala-AATC-CQ5-NearShorOffices.png"
+                imagelink="/content/xumak/en"
+                subheading="The office themed High Tech, Great Working Environment seats in a penthouse at a 14th floor of one of the newest buildings in Guatemala City with 360 degree view of the city and its surrounding volcanoes.  It has plenty of Scrum Rooms and is geared to host up to 150 resources."/>
+        </slide-par>
+    </jcr:content>
+</jcr:root>

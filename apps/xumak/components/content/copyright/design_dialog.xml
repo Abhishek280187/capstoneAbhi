@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    title="Logo (Design)"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <basic
+            jcr:primaryType="cq:Widget"
+            title="General"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <imageLink
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Image Link"
+                    name="./imageLink"
+                    xtype="pathfield"/>
+                <copyrightText
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Copyright Text"
+                    name="./copyrightText"
+                    xtype="textfield"/>
+                <contactUs
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Contact Us Link"
+                    name="./contactUs"
+                    xtype="pathfield"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Select Image"
+                    name="./image"
+                    xtype="pathfield"/>
+            </items>
+        </basic>
+        <footerImg
+            jcr:primaryType="cq:Widget"
+            cropParameter="./imageCrop"
+            ddGroups="[media]"
+            fieldLabel="Footer Image"
+            fileNameParameter="./imageName"
+            fileReferenceParameter="./imageReference"
+            mapParameter="./imageMap"
+            name="./image"
+            rotateParameter="./imageRotate"
+            sizeLimit="100"
+            title="Image"
+            xtype="html5smartimage"/>
+    </items>
+</jcr:root>

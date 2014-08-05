@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-07-05T10:57:59.301+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Search"
+        sling:resourceType="xumak/components/page/subpage"
+        hideInNav="true">
+        <content-image
+            jcr:lastModified="{Date}2013-07-03T15:27:09.480+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/header_0005_iStock_000002027164Medium.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-07-03T15:29:31.636+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>@XumaK we love what we do!&lt;/h1>&#xa;&lt;h5>Let us help you in your CQ5 implementation...&lt;/h5>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <searchresult
+                jcr:created="{Date}2013-07-03T14:10:43.964+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-05T10:57:58.960+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/searchresult"
+                noResultsText="No Results Found"
+                searchIn="/content/xumak/es"/>
+        </left-parsys>
+        <image
+            jcr:lastModified="{Date}2013-06-28T17:58:14.465+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-06-28T14:03:53.640+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="xumak_becomes_a_cq5_adobe_authorized_training_center_aatc"
+        sling:resourceType="xumak/components/page/subpage">
+        <content-image
+            jcr:lastModified="{Date}2013-06-28T13:57:02.782+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/xumak-aatc-cq5-adobe.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-28T13:57:50.893+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;h5>XumaK becomes a CQ5 Adobe® Authorized Training Center (AATC)&lt;/h5>&#xa;&lt;p>XumaK is primarily focused on supporting both Adobe® customers and partners with their CQ implementations and training needs&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-28T13:58:16.689+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T13:59:32.773+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>January 2012&lt;br>&#xa;&lt;/p>&#xa;&lt;p>XumaK is pleased to announce the opening of our CQ5 Adobe® Authorized Training Center in Guatemala City, Guatemala, Central America.&lt;/p>&#xa;&lt;p>The custom designed classroom is located in our new office space that encompasses the entire 14th floor of The Design Center building in Guatemala City. The Design Center is a new, super modern, mixed-use, office building that hosts 3 restaurants, 15 floors of lease space, underground parking and a secure environment. This location is strategically close to the most important places in the city, 15 minutes from the international airport and 5 minutes from the financial &amp;amp; hotel districts.&lt;/p>&#xa;&lt;p>As a member of the AATC, XumaK’s CQ5 Adobe® Certified Instructors (ACI) will deliver the CQ5 official courses (&lt;a>Author, Developer &amp;amp; System Administration&lt;/a>) in addition to XumaK’s custom CQ5 Workshops (&lt;a>Advance Author&lt;/a>, &lt;a>Advance Developer&lt;/a>, &lt;a>Advance Administration&lt;/a> &amp;amp; &lt;a>Advance Architect&lt;/a>).&lt;/p>&#xa;&lt;p>Since 2003, XumaK has been delivering CQ courses around the world. We are happy and honored to continue working with this product and glad to assist Adobe’s Training Services.&lt;/p>&#xa;&lt;p>XumaK’s AATC in Guatemala was chosen to best serve students coming from the USA, Latin America &amp;amp; Caribbean and we are always open.&lt;/p>&#xa;&lt;p>Registration for classes delivered in this location is on a first come, first serve basis and seating is limited to a maximum of 12 students per session.&lt;/p>&#xa;&lt;p>To inquire about available seats and registration, please &lt;a>CONTACT US&lt;/a> at &lt;a href=&quot;mailto:training@XumaK.com?subject=Training%20inquiry&quot;>training@XumaK.com&lt;/a> or by calling +1.213.232.3366.&lt;/p>&#xa;&lt;p>--------------------&lt;br>&#xa;About XumaK&lt;/p>&#xa;&lt;p>XumaK is an acknowledged leader in Web Content Management (WCM), Web Experience Management (WEM), mobile solutions and web strategy. An Adobe® Solutions Partner, XumaK is primarily focused on supporting both Adobe® customers and partners with their Adobe CQ implementations and training needs. Through our office in the USA and a near-shore team of professionals based in Guatemala, we deliver cost effective, multi-lingual services to customers and partners located around the world.&lt;/p>&#xa;"
+                heading="XumaK becomes a CQ5 Adobe® Authorized Training Center (AATC)">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <image
+                jcr:created="{Date}2013-06-28T14:00:05.169+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:00:45.700+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/Xumak/content-banner_0001_aatc-copy.png"/>
+        </left-parsys>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-28T14:01:14.550+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:02:04.024+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="AATC"
+                links="\{&quot;url&quot;:&quot;/content/xumak&quot;,&quot;text&quot;:&quot;CQ5 Adobe® Authorized Training Center, Guatemala City, Latin America&quot;}"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-28T14:02:10.674+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:02:54.645+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="UPDATES"
+                links="\{&quot;url&quot;:&quot;/content/xumak&quot;,&quot;text&quot;:&quot;XumaK Expands Near Shore Office - Guatemala City&quot;}"/>
+            <rightcontentbox_1
+                jcr:created="{Date}2013-06-28T14:02:59.945+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:03:53.636+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Share"
+                links="\{&quot;url&quot;:&quot;/content/xumak&quot;,&quot;text&quot;:&quot;Tweet&quot;}"/>
+        </right-parsys>
+    </jcr:content>
+</jcr:root>

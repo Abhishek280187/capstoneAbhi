@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-07-03T15:20:08.697+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:description="delivering the highest quality work for a reasonable price"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SERVICES"
+        sling:resourceType="xumak/components/page/subpage">
+        <image
+            jcr:lastModified="{Date}2013-06-26T18:59:46.946+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <content-image
+            jcr:lastModified="{Date}2013-06-26T19:26:31.805+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/header_0005_iStock_000002027164Medium.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-06-26T19:26:49.515+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>How may we help you?&lt;/h1>&#xa;&lt;h5>&amp;nbsp;&lt;/h5>&#xa;&lt;p>The XumaK - Global Integration Team is here to assist you with your CQ5 and/or JCR based application.&lt;/p>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <searchPath
+            jcr:lastModified="{Date}2013-06-27T11:00:03.379+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="xumak/components/content/search"
+            searchIn="/content/xumak"/>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-06-27T11:31:41.724+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T14:09:00.388+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="UPDATES"
+                headingLink="/content/xumak/en/learning"
+                links="[{&quot;url&quot;:&quot;/content/xumak/en/aboutus/xumak_becomes_a_cq5_adobe_authorized_training_center_aatc&quot;\,&quot;text&quot;:&quot;XumaK becomes a CQ5 Adobe® Authorized Training Center (AATC)&quot;},{&quot;url&quot;:&quot;/content/xumak/en/aboutus/new-xumak-offices-Guatemala&quot;\,&quot;text&quot;:&quot;XumaK Expands Near Shore Office - Guatemala City&quot;}]"
+                subheading="XumaK becomes a CQ5 Adobe® Authorized Training Center (AATC)"/>
+            <rightcontentbox_0
+                jcr:created="{Date}2013-06-27T14:38:23.638+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-28T18:29:01.622+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="SUPPORT"
+                links="\{&quot;url&quot;:&quot;&quot;,&quot;text&quot;:&quot; If you enter the world of state-of-the-art Web application development and Content Repositories based on Java Technology, you will want to rely on a strong partner to back you up whenever you are reaching the limits. For additional information on our support packages, please contact us: info@XumaX.com&quot;}"/>
+        </right-parsys>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-06-27T17:23:16.336+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T17:23:58.143+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>XumaK Professional Services is the core of our operations. We are dedicated to customer satisfaction and make every effort to leverage the experience gained from our past projects in all new engagements. Our project teams have created lists of best practices, common mistakes, custom architecture designs and unique integration solutions specifically designed to deliver the highest quality work for a reasonable price.&lt;/p>&#xa;"
+                heading="Services"
+                subheading="delivering the highest quality work for a reasonable price">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+            </_2colheading>
+            <textimage
+                jcr:created="{Date}2013-06-27T17:44:32.337+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T17:49:07.076+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>The XumaK team members are available to assist you in implementing your CQ5 project, either from the start or in supporting the maintenance of your existing implementation. with over 50+ resources fully dedicated to CQ, we have acquired a vast knowledge on this product.&amp;nbsp; Furthermore, in the effort to always deliver high quality services, we have created in house a fully dedicated R&amp;amp;D team on CQ and JCR.&lt;/p>&#xa;"
+                heading="IMPLEMENTATION SUPPORT "
+                image="/content/dam/Xumak/team_0000_others_noxumak.png"
+                link="/content/xumak/en/yourcqteam"/>
+            <textimage_0
+                jcr:created="{Date}2013-06-27T17:57:03.631+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T19:16:12.877+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>@ XumaK, we offer the official CQ5 Adobe® classes and XumaK Advanced CQ5 Workshops. XumaK's high-quality training and workshops are taught by not only experienced and patient professionals, but by CQ Adobe® Certified Instructors (ACI). Our CQ ACI instructors have real-world experience in CQ-implementations and have helped customers just like you realize CQ’s true potential in their environment.&lt;/p>&#xa;&lt;p>Adobe® has granted XumaK an Adobe Authorized Training Center in Latin America--proving that we are true experts on this product.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                heading="TRAINING"
+                image="/content/dam/Xumak/team__0000_Layer-3.png"
+                link="/content/xumak/en/learning"/>
+            <textimage_1
+                jcr:created="{Date}2013-06-27T17:59:05.675+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T17:59:42.551+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>We have Project Managers and Lead Developers that know how to implement on time and on budget.&lt;/p>&#xa;"
+                heading="LEAD"
+                image="/content/dam/Xumak/team__0000_Layer-5-copy.png"/>
+            <textimage_2
+                jcr:created="{Date}2013-06-27T17:59:58.222+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:00:43.674+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>Given that we have had been working with all the version of CQ, we can assist your team in upgrading to the latest CQ version.&amp;nbsp; We have the experience in upgrading existing implementation to the latest version of CQ.&amp;nbsp;&lt;/p>&#xa;&lt;p>We have done content migration from and older version of CQ and we have also migrated content from other non JCR repositories into CRX/CQ.&lt;/p>&#xa;"
+                heading="UPGRADE &amp; CONTENT MIGRATION"
+                image="/content/dam/Xumak/team__0000_Layer-6-copy.png"/>
+            <textimage_3
+                jcr:created="{Date}2013-06-27T18:00:57.790+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T18:01:30.524+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;p>We are often asked to fix or enhance existing implementations, we can help you get your CQ5 project back on track!&lt;/p>&#xa;"
+                heading="FIX"
+                image="/content/dam/Xumak/team__0000_Layer-4-copy.png"/>
+            <textimage_4
+                jcr:created="{Date}2013-06-27T18:56:36.442+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T19:06:52.560+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"
+                description="&lt;ul>&#xa;&lt;li>Our competitive cost approach by using blended rates based on our US team and our Near-Shore office (CST)&lt;/li>&#xa;&lt;li>Our approaches with our Learning Program, which can help you, get started with your CQ5 implementation.&lt;/li>&#xa;&lt;li>Our measurable deliverables so that our clients can always follow the implementation flow.&lt;/li>&#xa;&lt;li>Our experience in implementing several solutions based on the JCR technology and CQ5 and our delivery of CQ training worldwide.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                heading="What sets us apart in the CQ5 field from other consulting firms?"/>
+            <textimage_5
+                jcr:created="{Date}2013-06-27T19:06:01.038+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-06-27T19:06:01.038+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"/>
+        </left-parsys>
+    </jcr:content>
+    <cq5/>
+</jcr:root>

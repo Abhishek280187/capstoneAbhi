@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-07-03T16:47:16.812+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/xumak/templates/subpage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="news"
+        jcr:uuid="6c641fd4-8f3f-4999-af5c-f413bab01ec3"
+        sling:resourceType="xumak/components/page/subpage">
+        <content-image
+            jcr:lastModified="{Date}2013-07-03T16:41:53.440+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/Xumak/xumak-aatc-cq5-adobe.png"/>
+        <content-text
+            jcr:lastModified="{Date}2013-07-03T16:42:00.675+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p>&lt;h1>News&lt;/h1>&#xa;&lt;h5>The XumaK - Global Integration Team.&lt;/h5>&#xa;&lt;p>Learn about the Top 10 Most Recent Yahoo News&lt;/p>&#xa;&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <right-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <rightcontentbox
+                jcr:created="{Date}2013-07-03T16:42:19.375+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-03T16:42:38.692+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/rightcontentbox"
+                heading="Contact US"
+                links="\{&quot;url&quot;:&quot;/content/xumak/en/contact&quot;,&quot;text&quot;:&quot;Contact &quot;}"/>
+        </right-parsys>
+        <left-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <_2colheading
+                jcr:created="{Date}2013-07-03T16:42:50.463+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-03T16:43:33.178+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/2colheading"
+                description="&lt;p>&lt;b>Displaying news for July 26, 2012&lt;/b>&lt;/p>&#xa;"
+                heading="News"
+                subheading="See Yahoo! most recent news">
+                <social
+                    jcr:lastModified="{Date}2013-07-03T15:20:08.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/social"
+                    links="[{&quot;url&quot;:&quot;http://www.twitter.com/TeamXumaK&quot;\,&quot;text&quot;:&quot;Follow Us On Twitter&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/twitt.png&quot;},{&quot;url&quot;:&quot;http://www.facebook.com/XumaK&quot;\,&quot;text&quot;:&quot;Follow Xumak on Facebook&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/face.png&quot;},{&quot;url&quot;:&quot;http://www.linkedin.com/company/2036835?trk=pro_other_cmpy&quot;\,&quot;text&quot;:&quot;Follow Xumak on LinkedIn&quot;\,&quot;imageURL&quot;:&quot;/etc/designs/xumak/clientlib/images/linkedin.jpg&quot;}]"/>
+                <textimage_0
+                    jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/textimage"
+                    description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                    heading="The client - Key Player"
+                    image="/content/dam/Xumak/Adobe-XumaK-CQ5.png">
+                    <textimage
+                        jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="xumak/components/content/textimage"
+                        description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                        heading="The client - Key Player"
+                        image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+                </textimage_0>
+                <textimage_1
+                    jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/textimage"
+                    description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                    heading="The client - Key Player"
+                    image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+                <textimage_2
+                    jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/textimage"
+                    description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                    heading="The client - Key Player"
+                    image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+                <textimage_3
+                    jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/textimage"
+                    description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                    heading="The client - Key Player"
+                    image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+                <textimage_4
+                    jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/textimage"
+                    description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                    heading="The client - Key Player"
+                    image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+                <textimage
+                    jcr:created="{Date}2013-06-27T18:35:46.342+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-27T18:36:08.794+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="xumak/components/content/textimage"
+                    description="&lt;p>For the XumaK team, the KEY&amp;nbsp;PLAYER&amp;nbsp;is you and we work to seamlessly work with you so that all of your requirements are met and your project goes on smoothly.&lt;br>&#xa;&lt;/p>&#xa;"
+                    heading="The client - Key Player"
+                    image="/content/dam/Xumak/Adobe-XumaK-CQ5.png"/>
+            </_2colheading>
+            <textimage
+                jcr:created="{Date}2013-07-03T16:44:45.009+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-07-03T16:46:16.677+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/textimage"/>
+        </left-parsys>
+    </jcr:content>
+</jcr:root>

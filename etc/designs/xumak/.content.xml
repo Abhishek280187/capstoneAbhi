@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-07-04T11:50:52.230+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Xumak"
+        sling:resourceType="wcm/core/components/designer">
+        <homepage jcr:primaryType="nt:unstructured">
+            <logo
+                jcr:lastModified="{Date}2013-06-26T17:56:28.822+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/logo"
+                imageLink="/content/xumak"
+                imageReference="/content/dam/Xumak/logo.png"
+                imageRotate="0"
+                maxWidth="165"/>
+            <copyright
+                jcr:lastModified="{Date}2013-06-27T11:00:45.301+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/copyright"
+                contactUs="/content/xumak"
+                copyrightText="Copyright © 2003 - 2012 XumaK, LLC. All right reserved | USA &amp; Latin America | "
+                image="/content/dam/Xumak/adobe-logos-xumak-cq5.png"
+                imageLink="/content/xumak/en"
+                imageReference="/content/dam/Xumak/adobe-logos-xumak-cq5.png"
+                imageRotate="0"/>
+            <col1
+                jcr:lastModified="{Date}2013-06-27T14:01:33.954+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Geometrixx Media,group:Geometrixx Outdoors,group:Xumak]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </col1>
+            <col2
+                jcr:lastModified="{Date}2013-06-27T11:33:37.344+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:Xumak">
+                <section jcr:primaryType="nt:unstructured"/>
+            </col2>
+            <col3
+                jcr:lastModified="{Date}2013-06-27T11:34:00.546+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:Xumak">
+                <section jcr:primaryType="nt:unstructured"/>
+            </col3>
+            <topnav
+                jcr:lastModified="{Date}2013-06-28T16:40:22.286+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/topnav"
+                location="[/content/xumak/es,/content/xumak/es/acerca-de-xumak,/content/xumak/es/empleos-guatemala]"/>
+            <footerlogo
+                jcr:lastModified="{Date}2013-06-27T15:37:34.256+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/footerlogo"
+                imageReference="/content/dam/Xumak/blacklogo.png"
+                imageRotate="0"
+                maxWidth="165"/>
+            <languageselector
+                jcr:lastModified="{Date}2013-06-27T15:40:57.997+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/languageselector"
+                firstCountryImage="/content/dam/Xumak/en.jpg"
+                firstCountryLocation="/content/xumak/en"
+                pageTitle="Select language "
+                secondCountryImage="/content/dam/Xumak/sp.gif"
+                secondCountryLocation="/content/xumak/es"/>
+        </homepage>
+        <subpage jcr:primaryType="nt:unstructured">
+            <copyright
+                jcr:lastModified="{Date}2013-06-27T11:00:45.301+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/copyright"
+                contactUs="/content/xumak"
+                copyrightText="Copyright © 2003 - 2012 XumaK, LLC. All right reserved | USA &amp; Latin America | "
+                image="/content/dam/Xumak/adobe-logos-xumak-cq5.png"
+                imageLink="/content/xumak/en"
+                imageReference="/content/dam/Xumak/adobe-logos-xumak-cq5.png"
+                imageRotate="0"/>
+            <logo
+                jcr:lastModified="{Date}2013-07-04T11:50:51.952+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/logo"
+                imageLink="/content/xumak/en"
+                imageReference="/content/dam/Xumak/logo.png"
+                imageRotate="0"
+                maxWidth="165"/>
+            <right-parsys
+                jcr:lastModified="{Date}2013-06-27T11:31:26.071+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:Xumak">
+                <section jcr:primaryType="nt:unstructured"/>
+            </right-parsys>
+            <topnav
+                jcr:lastModified="{Date}2013-06-28T16:35:23.569+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/topnav"
+                location="[/content/xumak/en,/content/xumak/en/services,/content/xumak/en/learning,/content/xumak/en/yourcqteam]"/>
+            <footerlogo
+                jcr:lastModified="{Date}2013-06-27T15:38:52.840+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/footerlogo"
+                imageReference="/content/dam/Xumak/blacklogo.png"
+                imageRotate="0"
+                maxWidth="165"/>
+            <languageselector
+                jcr:lastModified="{Date}2013-06-28T16:39:17.942+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xumak/components/content/languageselector"
+                firstCountryImage="/content/dam/Xumak/en.jpg"
+                firstCountryLocation="/content/xumak/en"
+                pageTitle="Select language "
+                secondCountryImage="/content/dam/Xumak/sp.gif"
+                secondCountryLocation="/content/xumak/es"/>
+            <left-parsys
+                jcr:lastModified="{Date}2013-06-28T16:14:47.705+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Xumak]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </left-parsys>
+        </subpage>
+        <partialpage jcr:primaryType="nt:unstructured">
+            <parsys
+                jcr:lastModified="{Date}2013-06-28T14:26:27.135+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:Xumak">
+                <section jcr:primaryType="nt:unstructured"/>
+            </parsys>
+        </partialpage>
+    </jcr:content>
+    <clientlib/>
+</jcr:root>
